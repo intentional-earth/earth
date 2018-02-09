@@ -37,6 +37,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 10px;
     }
 
     .card-title {
@@ -44,8 +45,19 @@
       margin: 20px 0 40px !important;
     }
 
+    .card-title::before {
+      content: '🌎';
+      margin-right: 10px;
+    }
+
+    .card-title::after {
+      content: '🌍';
+      margin-left: 10px;
+    }
+
     td {
       padding: 15px 15px;
+      vertical-align: top;
     }
   </style>
 </head>
@@ -55,12 +67,12 @@
     <main class="card">
       <div class="card-content">
         <span class="card-title">
-          🌎 Intentional Earth 🌍
+          Intentional Earth
         </span>
         <table>
           <tbody>
             <tr>
-              <td>Step 1</td>
+              <td>Step&nbsp;1</td>
               <td>
                 Create a
                 <a href="https://intentional.chat" target="_blank">
@@ -70,16 +82,16 @@
               <td>✅</td>
             </tr>
             <tr>
-              <td>Step 2</td>
+              <td>Step&nbsp;2</td>
               <td>Finish reading
                 <a href="https://www.amazon.com/Community-The-Structure-of-Belonging/dp/B002R2AF5O/" target="_blank">
                   Community: The Structure of Belonging
                 </a>
               </td>
-              <td>📖</td>
+              <td>...</td>
             </tr>
             <tr>
-              <td>Step 3</td>
+              <td>Step&nbsp;3</td>
               <td>A worldwide intentional community</td>
               <td>☮️</td>
             </tr>
